@@ -6,11 +6,72 @@ import '../components-styles/page.css'
 function HomePage(){
   return (
     <div className="pagina-principal">
-      <NavBar/>
-      {/* <Fotos 
-        img = '../img/anillos.jpg'
-        description = 'foto 1'
-      /> */}
+      {/* <NavBar/> */}
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+      <Fotos
+        image = "../img/anillos.jpg"
+        desc='foto 1'
+      />
+  
     </div>
     )
 }

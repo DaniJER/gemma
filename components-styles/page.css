@@ -1,3 +1,7 @@
 .pagina-principal{
-    background-color: #86294e;
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    background-color: white;
+
 }

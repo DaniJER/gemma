@@ -4,10 +4,12 @@ import '../components-styles/Fotos.css';
 function Fotos(props){
   return(
     <div className="contenedor-principal-imagenes">
-      <img className="contenedor-foto"
-        src={props.img} 
-        alt={props.description} 
-      />
+      <div className="contenedor-foto">
+        <img 
+          src = {props.image}
+          alt= {props.desc} 
+        />
+      </div>
     </div>
   )
 }
