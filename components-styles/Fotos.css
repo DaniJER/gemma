@@ -1,0 +1,17 @@
+.contenedor-principal-imagenes{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 10px 5px;
+    margin: 20px 20px;
+    flex: 1 1;
+    width: 80%;
+    height: 20px;
+    background-color: coral;
+
+}
+img{
+    margin: 5px;
+    padding: 5px;
+    width: 60px;
+    background-color: blue;
+}
