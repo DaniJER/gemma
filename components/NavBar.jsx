@@ -7,24 +7,15 @@ function NavBar(){
 
         <nav className="nav-bar">
 
-            <Link href='/'><h1 className='titulo-nav'>Gemma Accesorios</h1></Link>
+            <h1><Link href='/'>Gemma Accesorios</Link></h1>
             <ul>
-                <Link href="/redes">Redes sociales</Link>
+                <p><Link href="/redes">Nuevo</Link></p>
             </ul>
             <ul>
-                <Link href="/nosotros">Nosotros</Link>
+                <p><Link href="/nosotros">Todo</Link></p>
             </ul>
             <ul>
-                <Link href="/">Contacto</Link>
-            </ul>
-            <ul>
-                <Link href="/">Contacto</Link>
-            </ul>
-            <ul>
-                <Link href="/">Contacto</Link>
-            </ul>
-            <ul>
-                <Link href="/">Contacto</Link>
+                <p><Link href="/">Categorias</Link></p>
             </ul>
         </nav>  
     )

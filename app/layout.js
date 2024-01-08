@@ -12,9 +12,8 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-        
       <body className="container mx-auto h-screen flex justify-center">
-        <NavBar />
+        <div className='nav-bar'><NavBar /></div>
         {children}
       </body>
 

@@ -1,19 +1,22 @@
+.nav-bar a:link, a:visited, a:active{
+    text-decoration: none;
+}
+
 .nav-bar{
-    height: 75px;
-    background-color: #86294e;
     display: flex;
-    justify-content: space-between;
-    padding: 0 4rem;
+    height: 120px;
+    width: 89.3%;
+    justify-content: center;
     align-items: center;
+    background-color: #590d22;
+    flex: 1 1;
+    padding: 0 4rem;
     font-size: 20px;
 }
-.nav-bar ul{
-    display: flex;
-    gap: 1rem;
+
+.nav-bar a{
+    color: white;
 }
-.nav-bar ul li{
-    list-style: none;   
-}
-.titulo-nav{
-    color: aliceblue;
+.nav-bar a:hover{
+    color: #ebe0c1;
 }
