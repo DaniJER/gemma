@@ -9,13 +9,16 @@ function NavBar(){
 
             <h1><Link href='/'>Gemma Accesorios</Link></h1>
             <ul>
-                <p><Link href="/redes">Nuevo</Link></p>
+                <p><Link href="/nuevo">Nuevo</Link></p>
             </ul>
             <ul>
-                <p><Link href="/nosotros">Todo</Link></p>
+                <p><Link href="/todo">Todo</Link></p>
             </ul>
             <ul>
-                <p><Link href="/">Categorias</Link></p>
+                <p><Link href="/categorias">Categorias</Link></p>
+            </ul>
+            <ul>
+                <p><Link href="/nosotros">Nosotros</Link></p>
             </ul>
         </nav>  
     )

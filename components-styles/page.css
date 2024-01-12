@@ -1,6 +1,6 @@
 .pagina-principal{
-    margin: 10px 3.9rem;
-    padding: 1px -10px;
+    width: 100%;
+    margin: 1px 1px;
     display: flex;
     flex-wrap: wrap;
 
